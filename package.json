@@ -1,0 +1,23 @@
+{
+  "name": "@simplebytesdev/simplebuttons",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass sass/simplebuttons.scss build/simplebuttons.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplebytesdev/simplebuttons.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplebytesdev/simplebuttons/issues"
+  },
+  "homepage": "https://github.com/simplebytesdev/simplebuttons#readme",
+  "devDependencies": {
+    "sass": "^1.23.0"
+  }
+}

@@ -1,0 +1,67 @@
+.btn {
+  color: #000;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 1.2em;
+  font-weight: 400;
+  border: 1px solid transparent;
+  background: #fbfbfb;
+}
+.btn:hover {
+  background: #e7e7e7;
+  transition: all 0.3s ease;
+}
+.btn:active {
+  background: #bbbbbb;
+}
+
+.active {
+  color: #fff;
+  background: #00B83B;
+}
+.active:hover {
+  background: #008f2e;
+  transition: all 0.3s ease;
+}
+.active:active {
+  background: #003912;
+}
+
+.danger {
+  color: #fff;
+  background: #EF2E3E;
+}
+.danger:hover {
+  background: #e31123;
+  transition: all 0.3s ease;
+}
+.danger:active {
+  background: #920b16;
+}
+
+.primary {
+  color: #fff;
+  background: #099AED;
+}
+.primary:hover {
+  background: #0880c6;
+  transition: all 0.3s ease;
+}
+.primary:active {
+  background: #044a72;
+}
+
+.dark {
+  color: #fff;
+  background: #363636;
+}
+.dark:hover {
+  background: #222222;
+  transition: all 0.3s ease;
+}
+.dark:active {
+  background: black;
+}
+
+/*# sourceMappingURL=simplebuttons.css.map */

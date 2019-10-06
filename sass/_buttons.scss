@@ -1,0 +1,43 @@
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+
+
+.btn {
+    color: $btn-color;
+    text-decoration: none;
+    padding: $btn-padding;
+    border-radius: $btn-border-radius;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    border: $btn-border;
+
+    @include button-bg($btn-bg);
+}
+
+.active {
+    color: $btn-color-alt;
+    @include button-bg($btn-bg-active);
+}
+
+.danger {
+    color: $btn-color-alt;
+    @include button-bg($btn-bg-danger);
+}
+
+.primary {
+    color: $btn-color-alt;
+    @include button-bg($btn-bg-primary);
+}
+
+.dark {
+    color: $btn-color-alt;
+    @include button-bg($btn-bg-dark);
+}
